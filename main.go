@@ -8,8 +8,9 @@ import (
 	"flag"
 	"log"
 
+	"opentofu-provider-broadcom-layer7/internal/provider"
+
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/hashicorp/terraform-provider-scaffolding-framework/internal/provider"
 )
 
 var (
